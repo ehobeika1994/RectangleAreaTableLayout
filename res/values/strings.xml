@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Rectangle Area Calculation</string>
+    <string name="app_name">RectangleAreaTableLayout</string>
+    <string name="lengthText">Length in cms</string>
+	<string name="breadthText">Breadth in cms</string>
+	<string name="calculateText">Calculate Area</string>
+	<string name="areaText">Area in cm2</string>
+	<string name="clearText">Clear Entries</string>
+</resources>

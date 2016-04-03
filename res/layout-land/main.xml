@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TableRow android:gravity="center">
+        
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="fill"  
+	        android:text="@string/hello" />
+	</TableRow>
+	
+    <TableRow>
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/lengthText" />
+
+        <EditText
+            android:id="@+id/lengthEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:inputType="numberDecimal" >
+
+            <requestFocus />
+        </EditText>
+    </TableRow>
+
+    <TableRow>		<TextView
+            android:id="@+id/textView2"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/breadthText" />
+
+        <EditText
+            android:id="@+id/breadthEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal" />
+	</TableRow>
+
+ <TableRow android:gravity="center">
+      	<Button
+	        android:id="@+id/areaButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"  
+	        android:text="@string/calculateText" />
+    </TableRow>
+
+   <TableRow>    
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content" 
+            android:gravity="center"
+            android:text="@string/areaText" />
+
+        <EditText
+            android:id="@+id/areaEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal" />        
+	</TableRow>
+	
+ <TableRow android:gravity="center">
+     	<Button
+	        android:id="@+id/clearButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/clearText" />
+	</TableRow>
+
+</TableLayout>
